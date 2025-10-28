@@ -181,7 +181,7 @@ export default function TrackProgress() {
           {piSlot && (
             <div className="mt-3 p-3 bg-gray-700 rounded-lg text-center">
               <p className="text-white font-mono text-sm">
-                🎤 Your PI Slot: <span className="font-semibold">{piSlot}</span>
+                Your PI Slot: <span className="font-semibold">{piSlot}</span>
               </p>
             </div>
           )}
@@ -196,7 +196,7 @@ export default function TrackProgress() {
           {finalResult && (
             <div className="mt-3 p-3 bg-gray-700 rounded-lg text-center">
               <p className="text-white font-mono text-sm">
-                🏁 Your Result: <span className="font-semibold">{finalResult}</span>
+                Your Result: <span className="font-semibold">{finalResult}</span>
               </p>
             </div>
           )}

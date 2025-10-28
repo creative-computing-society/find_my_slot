@@ -111,7 +111,7 @@ export default function TrackProgress() {
   };
 
   return (
-    <div className="flex justify-center items-center h-screen flex-col relative bg-gray-900">
+    <div className="flex justify-center items-center h-screen flex-col relative bg-gray-900 overflow-hidden">
       <img
         src="/3.png"
         alt="Background"

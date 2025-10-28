@@ -1,6 +1,6 @@
 services:
   track:
-    build: ./track-backend
+    build: ./backend
     container_name: track-backend
     restart: always
     env_file:
@@ -9,7 +9,7 @@ services:
       - "2105:2105"
 
   track-frontend:
-    build: ./track-frontend
+    build: ./frontend
     container_name: track-frontend
     restart: always
     ports:

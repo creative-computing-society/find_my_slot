@@ -160,6 +160,7 @@ export default function TrackProgress() {
           {quizSlot && (
             <div className="mt-3 p-3 bg-gray-700 rounded-lg text-center">
               <p className="text-white font-mono text-sm">
+                Date : 28 October, 2025
                 Your Quiz Slot: <span className="font-semibold">{quizSlot}</span>
               </p>
               <p className="text-gray-300 text-md mt-2 italic">

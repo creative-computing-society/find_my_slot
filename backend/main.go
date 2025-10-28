@@ -112,7 +112,7 @@ func main() {
 		view_admin.GET("/view", admin.ShowViewPage)
 		view_admin.GET("/api/reg-responses-view", admin.GetRegResponsesDataSecond)
 	}
-	limiter := tollbooth.NewLimiter(2, nil)
+	limiter := tollbooth.NewLimiter(20, nil)
 	limiter.SetMessage("Too many requests — please wait before trying again.")
 	limiter.SetStatusCode(http.StatusTooManyRequests)
 

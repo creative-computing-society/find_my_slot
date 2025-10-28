@@ -180,7 +180,7 @@ export default function Register() {
         </div>
 
         {loading ? (
-          <div className="text-center text-gray-400">Loading questions...</div>
+          <div className="text-center text-gray-400">Loading status...</div>
         ) : (
           <form className="space-y-3" onSubmit={page === totalPages - 1 ? handleSubmit : handleNext}>
             {currentQuestions.map((q) => (

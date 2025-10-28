@@ -9,7 +9,7 @@ services:
       - "2105:2105"
 
   track-frontend:
-    build: ./frontend
+    build: ./regportal
     container_name: track-frontend
     restart: always
     ports:
